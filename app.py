@@ -1,5 +1,5 @@
 import streamlit as st
-
+st.title('Giải phương trình bậc nhất')
 a = st.number_input('Tham số a', -1000, 1000)
 b = st.number_input('Tham số b', -1000, 1000)
 if st.button('Giải'):
